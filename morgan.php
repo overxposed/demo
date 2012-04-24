@@ -1,3 +1,5 @@
 <?php
 $test = array("name"=>"Morgan");
-echo $test->name;
+foreach($test as $t){
+	echo $t;
+}
